@@ -1,0 +1,9 @@
+.session-block {
+    border: rgb(66, 155, 243) solid 2px;
+    border-radius: 0.4rem;
+    color: #ffffff;
+}
+
+.session-block__timer-data {
+    font: 700 4rem/4rem "Courier New";
+}
