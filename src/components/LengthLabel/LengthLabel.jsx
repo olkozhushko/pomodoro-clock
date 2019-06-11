@@ -4,17 +4,17 @@ import { faArrowUp, faArrowDown } from "@fortawesome/free-solid-svg-icons";
 
 const LengthLabel = ({title, pickedLength, btnId}) => {
   return (
-    <div className="length-picker__break">
-      <h3 className="length-picker__length-title">{title}</h3>
+    <div className="length-picker__label">
+      <h3 className="length-picker__label-title">{title}</h3>
       <div className="length-picker__nav-panel">
-        <button className="length-picker__nav-btn nav-btn_up" data-id={btnId}>
+        <button className={"length-picker__nav-btn nav-btn_up " + btnId}>
           <FontAwesomeIcon
             icon={faArrowUp}
             className="length-picker__nav-icon"
           />
         </button>
-        <span className="length-picker__length">{pickedLength}</span>
-        <button className="length-picker__nav-btn nav-btn_down" data-id={btnId}>
+        <span className="length-picker__length-text">{pickedLength}</span>
+        <button className={"length-picker__nav-btn nav-btn_down " + btnId}>
           <FontAwesomeIcon
             icon={faArrowDown}
             className="length-picker__nav-icon"

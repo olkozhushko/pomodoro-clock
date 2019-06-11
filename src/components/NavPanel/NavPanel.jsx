@@ -2,6 +2,8 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPlay, faPause, faSyncAlt } from "@fortawesome/free-solid-svg-icons";
 
+import "./NavPanel.css";
+
 const NavPanel = () => {
     return (
         <div className="nav-panel">

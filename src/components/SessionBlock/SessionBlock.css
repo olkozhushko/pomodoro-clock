@@ -1,9 +1,16 @@
 .session-block {
-    border: rgb(66, 155, 243) solid 2px;
-    border-radius: 0.4rem;
+    border: rgb(66, 155, 243) solid 5px;
+    border-radius: 1rem;
     color: #ffffff;
+    padding: 1rem;
+    text-align: center;
 }
 
 .session-block__timer-data {
     font: 700 4rem/4rem "Courier New";
+    display: inline-block;
+}
+
+.session-block__title {
+    font-size: 2rem;
 }

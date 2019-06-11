@@ -1,0 +1,23 @@
+.nav-panel {
+    width: 100%;
+    padding: 0.5rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-panel__btn-icon {
+    color: #ffffff;
+    font-size: 2rem;
+
+}
+
+.nav-panel__btn {
+    position: relative;
+    background: none;
+    border: none;
+    margin-right: 0.3rem;
+}
+
+.nav-panel__btn:active .nav-panel__btn-icon {
+    color: #9bb8f8;
+}

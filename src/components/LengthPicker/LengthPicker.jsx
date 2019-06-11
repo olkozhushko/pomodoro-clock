@@ -2,17 +2,19 @@ import React from "react";
 
 import LengthLabel from "../LengthLabel/LengthLabel";
 
+import "./LengthPicker.css";
+
 const LengthPicker = ({pickedLengthBreak, pickedLengthSession}) => {
     return (
         <div className="length-picker">
           <LengthLabel 
             pickedLength={pickedLengthBreak} 
             title="Break Length"
-            id={"break"}/>
+            btnId={"break"}/>
           <LengthLabel 
             pickedLength={pickedLengthSession} 
             title="Session Length"
-            id={"session"}/>
+            btnId={"session"}/>
         </div>
     )
 }
