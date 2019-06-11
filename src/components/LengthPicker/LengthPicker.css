@@ -41,3 +41,11 @@
 .length-picker__length-text {
     font-size: 2rem;
 }
+
+.length-picker__label-title_break {
+    color: rgb(70, 99, 70);
+}
+
+.length-picker__label-title_session {
+  color: rgb(148, 26, 26);
+}

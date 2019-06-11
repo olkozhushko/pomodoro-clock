@@ -13,9 +13,9 @@ code {
 }
 
 #root {
-  height: 100vh;
+  min-height: 100vh;
   width: 100vw;
-  background: linear-gradient(45deg, dodgerblue, rgb(56, 113, 170));
+  background: linear-gradient(45deg, rgb(171, 202, 233), rgb(62, 96, 129));
   display: flex;
   justify-content: center;
   align-items: center;

@@ -13,4 +13,11 @@
 
 .session-block__title {
     font-size: 2rem;
+    margin: 0.5rem 0;
+    color: rgb(148, 26, 26);
+    text-transform: uppercase;
+}
+
+.session-block__title_break {
+    color: rgb(70, 99, 70);;
 }
