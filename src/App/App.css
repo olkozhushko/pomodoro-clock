@@ -1,0 +1,12 @@
+.app {
+  width: 40%;
+}
+
+.header {
+  font-size: 2rem;
+  color: #ffffff;
+}
+
+.header h1 {
+  margin: 0.5rem 0;
+}
