@@ -1,9 +1,5 @@
 # Pomodoro-clock app made with react;
 
-## Available Scripts
-
-You can clone this repository and run script specified below;
-
-### `npm start`
+###You can watch this app on the heroku at url https://pomodoro-clock34.herokuapp.com/
 
 
